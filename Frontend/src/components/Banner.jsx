@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import banner from "./../../src/assets/download.jpg";
+import banner from "./../../src/assets/hayseyn.jpeg";
 
 const Banner = () => {
   return (
