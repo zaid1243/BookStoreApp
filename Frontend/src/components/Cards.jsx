@@ -3,7 +3,7 @@ import React from "react";
 function Cards({ price, item, image, name, category }) {
   console.log(item);
   return (
-    <div className=" scale-90 md:scale-100">
+    <div className=" scale-90 md:scale-100 hover:scale-105 duration-300">
       <div className="card bg-white scale-90  shadow-2xl border-black p-2">
         <figure>
           <img src={image} alt="Shoes" className="h-78" />
